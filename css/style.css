@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
 p{
     color: black;
 }
@@ -9,8 +15,13 @@ a
     display: inline-block;
 }
 header{
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding: 15px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    width:100%;
 }
 header .container
 {
@@ -39,9 +50,83 @@ header .container a
 
 #inicio
 {
-    
+    position: relative;
 }
 
-.body{
-    font-family: 'Roboto', sans-serif;
+#inicio img
+{
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio
+{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    text-align: center;
+}
+
+#inicio .bloque-inicio h1
+{
+    color: white;
+    font-size: 35px;
+}
+
+#inicio .bloque-inicio p
+{
+    color: white;
+    font-size: 16px;
+}
+
+.boton
+{
+    text-align: center;
+    text-decoration: white;
+    padding:15px 20px;
+}
+
+.boton.boton-rojo
+{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secction
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#nosotros
+{
+    background-image: url(img/latas.jpg);
+    background-size: cover;;
+}
+#nosotros p
+{
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    /*margin: 0;*/
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columna
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.columna-33
+{
+    width: 33.33%;
 }
