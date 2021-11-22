@@ -34,7 +34,7 @@ header .container .logo
     width: 100px;
 }
 
-header .container a
+header .container nav a
 {
     color: red;
     text-decoration: none;
@@ -44,6 +44,13 @@ header .container a
 {
     width: 1140px;
     margin: 0 auto 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-fluid
+{
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -96,6 +103,15 @@ header .container a
     font-weight: bold;
 }
 
+.boton.boton-blanco
+{
+    background-color: white;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
 .secction
 {
     padding-top: 60px;
@@ -107,6 +123,7 @@ header .container a
     background-image: url(img/latas.jpg);
     background-size: cover;;
 }
+
 #nosotros p
 {
     color:white;
@@ -115,10 +132,41 @@ header .container a
     /*margin: 0;*/
 }
 
+#servicios .bloque-servicio
+{
+    border: 1px solid gray;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio
+{
+    
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+    width: 100%;
+}
+#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
+{
+    padding-bottom: 56.25%;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio
+{
+    padding: 15px;
+}
+#servicios .bloque-servicio .bloque-contenido-servicio h3
+{
+    margin-top: 0;
+    font-size: 25px;
+}
+
 .row
 {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .columna
@@ -129,4 +177,20 @@ header .container a
 .columna-33
 {
     width: 33.33%;
+}
+.cuadrado-perfecto
+{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+.cuadrado-perfecto img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

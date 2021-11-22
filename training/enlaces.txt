@@ -11,3 +11,26 @@ Training Happy Dev Estilos 3
 https://www.youtube.com/watch?v=pKHvmY6yBUc
 Training Happy Dev Funcionalidades
 https://youtu.be/tTcPZFHKCSw
+
+master class
+https://www.youtube.com/watch?v=Q94ApoEla8I
+
+manual de marca diseño web
+
+imagenes
+https://pixabay.com/es/
+
+logo
+https://www.canva.com/es_419/
+https://es.wix.com/logo/maker
+
+metodologia first mobile
+optimizar tamaño de la imagen
+tinypng
+
+--consejos para velocidad
+pagespeed insight
+
+-- carrusel https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html
+-- lord capcha https://cloud.google.com/products/security-and-identity
+-- lottie plugin affter effects
