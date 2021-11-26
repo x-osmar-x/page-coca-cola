@@ -195,6 +195,20 @@ header .container nav a
 {
     width: 33.33%;
 }
+
+.empujar-50{
+    margin-left: 50%;
+
+}
+
+.empujar-0{
+    margin-left: 0;
+}
+
+.columna-50{
+    width: 50%;
+}
+
 .cuadrado-perfecto
 {
     width: 100%;
@@ -247,6 +261,40 @@ header .container nav a
     height: 100%;
     filter: grayscale(1);
 }
+
 #contactenos iframe:hover{
     filter: grayscale(0);
 }
+
+#contactenos form
+{
+    padding: 60px;
+    background-color: #ff0000;
+    background-image: linear-gradient(red, rgb(212, 59, 59));
+}
+
+#contactenos form .form-block
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#contactenos form .form-block .form-control
+{
+    display: block;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px 10px;
+}
+#contactenos form .form-block textarea
+{
+    display: block;
+    height: 100px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px 10px;
+}
+
