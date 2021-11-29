@@ -53,6 +53,7 @@ header .container .logo
 a
 {
     display: inline-block;
+    text-decoration: none;
 }
 
 header .container nav a
@@ -105,6 +106,7 @@ header .container nav a
     text-align: center;
     text-decoration: white;
     padding:15px 20px;
+    border:none;
 }
 
 .boton.boton-rojo
@@ -114,6 +116,18 @@ header .container nav a
     font-size: 20px;
     font-weight: bold;
 }
+.boton.boton-negro
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.boton.boton-negro:hover
+{
+    background-color: white;
+    color:black;
+}
 
 .boton.boton-blanco
 {
@@ -121,7 +135,7 @@ header .container nav a
     color: red;
     font-size: 16px;
     font-weight: bold;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 .seccion
@@ -205,6 +219,10 @@ header .container nav a
     margin-left: 0;
 }
 
+.columna-25{
+    width: 25%;
+}
+
 .columna-50{
     width: 50%;
 }
@@ -270,7 +288,7 @@ header .container nav a
 {
     padding: 60px;
     background-color: #ff0000;
-    background-image: linear-gradient(red, rgb(212, 59, 59));
+    /*background-image: linear-gradient(red, rgb(212, 59, 59));*/
 }
 
 #contactenos form .form-block
@@ -297,4 +315,55 @@ header .container nav a
     width: 100%;
     padding: 5px 10px;
 }
+#contactenos form .form-block.bloque-ultimo
+{
+    margin-bottom: 0;
+}
 
+footer
+{
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+}
+footer .barra-footer
+{
+    background-color: grey;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+footer .logo-footer
+{
+    width: 100%;
+
+}
+footer ul
+{
+    padding-left: 0%;
+    list-style: none;
+}
+footer ul li
+{
+    margin-bottom: 10px;
+}
+footer p
+{
+    color: white;
+}
+footer a
+{
+    color: white;
+}
+footer .redes
+{
+    font-size: 30px;
+    display: flex;
+}
+footer .redes a
+{
+    margin: 0 7.5px;
+}
